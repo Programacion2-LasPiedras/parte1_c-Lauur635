@@ -8,9 +8,11 @@ public class Programa {
 			System.out.println("el valor de x es: " + x);	
 		}					
 		int funcion(int x, int y, int z) {
-			x = x + 1;
-			y = x + 2;
-			z = x + y + z;
+			x = x + 1; 
+			y = x + 2;  
+			z = x + y + z;  
 			return z;
 		}
 	}
+//    Retorna un 11 porque es el valor de z .
+//  Aparece que el resultado de x es el valor de z porque la variable que llama a la función fue nombrada x.
